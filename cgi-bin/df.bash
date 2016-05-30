@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "Content-type: text/html"
+echo "Content-type: text/html; charset=UTF-8"
+#echo "<head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"> </head>"
 #POST=$(</dev/stdin)
 #echo "$POST" > /images/file
 rm -f ./Report$1/*
